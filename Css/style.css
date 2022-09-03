@@ -5,19 +5,22 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-#principal{
-    background-image: url(../img/pexels-tara-winstead-8386440.jpg);
-    background-size: cover;
-}
+body {
 
+    background-image: url(../img/imagenCortada.jpg);
+    background-size: cover;
+    background-position-x: left;
+}
 .container-form{
-    width: 100%;
+    background-color: transparent;
+
+    width: 60%;
     max-width: 1100px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
-    margin-top: 90px;
+    margin-top: 200px;
+    color: antiquewhite;
+    text-align: center;
+    
 }
 .container-form h2{
     margin-bottom: 15px;
@@ -28,6 +31,7 @@
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
+   
 }
 
 .container-form a {
@@ -38,9 +42,10 @@
     margin-bottom: 15px;
     color: black;
     font-weight: 700;
+    color: antiquewhite;
 }
 
 .container-form a i{
-    color: blue;
+    color: whitesmoke;
     margin-right: 10px;
 }
